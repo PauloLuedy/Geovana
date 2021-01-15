@@ -14,3 +14,27 @@ body {
     background-size: contain;
     -o-background-size: contain;
 }
+
+.bodyControlWidth{
+    max-width: 900px;
+}
+
+.navfixed{
+position: fixed;
+}
+.separa{
+    display: flex;
+  justify-content: space-between;
+}
+
+.d{
+
+background-size:contain;
+background-position:center;
+background-image: url('../img/teste.png');
+background-repeat: no-repeat;
+
+
+  height: 550px;
+}
+
