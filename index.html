@@ -7,7 +7,11 @@
     <title>Imagem de Fundo Preenchendo Toda a Tela</title>
     <link rel="stylesheet" href="./assets/css/index.css">
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
-
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
 </head>
 
 <body>
@@ -16,31 +20,33 @@
 
 
 
-    <nav class="navbar navbar-expand-lg  navbar-light site-header fixed-top bg-light ">
-        <div class="container bodyControlWidth ">
+    <div class="container">
+		<ul id="gn-menu" class="gn-menu-main">
+			<li class="gn-trigger">
+				<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+				<nav class="gn-menu-wrapper">
+					<div class="gn-scroller">
+						<ul class="gn-menu">
+							<li class="gn-search-item">
+								<a class="gn-icon gn-icon-article">Sobre</a>
+								<ul class="gn-submenu">
+									<li><a class="gn-icon gn-icon-article">Política</a></li>
+									<li><a class="gn-icon gn-icon-pictures">Images</a></li>
+									<li><a class="gn-icon gn-icon-videos">Videos</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</li>
+		</ul>
 
-            <a class="navbar-brand " href="#">Navbar com texto</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse " id="textoNavbar">
-
-                <ul class="navbar-nav ml-auto ">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Destaques</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Preços</a>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-    </nav>
+	</div><!-- /container -->
+	<script src="js/classie.js"></script>
+	<script src="js/gnmenu.js"></script>
+	<script>
+		new gnMenu(document.getElementById('gn-menu'));
+	</script>
 
         <div class="container-fluid d ">
 
