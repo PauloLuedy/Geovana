@@ -29,12 +29,16 @@ position: fixed;
 
 .d{
 
-background-size:contain;
+
 background-position:center;
 background-image: url('../img/teste.png');
 background-repeat: no-repeat;
-
+background-size:cover;
 
   height: 550px;
 }
 
+.heightPluss{
+  height: 550px;
+  flex-direction: row;
+}
