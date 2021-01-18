@@ -29,14 +29,14 @@ position: fixed;
 
 .d{
 background-position:center;
-background-image: url('../img/teste.png');
+background-image: url('../img/SV.jpg');
 background-repeat: no-repeat;
 background-size:cover;
-height: 550px;
+width: 100%;
 }
 
 .heightPluss{
-  height: 550px;
+  height: 38rem ;
   flex-direction: row;
 }
 
@@ -51,7 +51,7 @@ height: 550px;
 }
 
 .autoHeight {
- margin-top: 200px;
+ margin-top: 3rem ;
 }
 
 .circulo{
