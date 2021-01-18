@@ -7,7 +7,11 @@
     <title>Imagem de Fundo Preenchendo Toda a Tela</title>
     <link rel="stylesheet" href="./assets/css/index.css">
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
-
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
 </head>
 
 <body>
@@ -15,59 +19,53 @@
     <!-- <img id="intro" src="./img/capa web ge.png" alt="Geovana Albuquerque para Vereadora vote 19019!!">-->
 
 
+<!--Start Menu-->
+    <div class="container menuTOPO">  
+		<ul id="gn-menu" class="gn-menu-main ">
+			<li class="gn-trigger">
+				<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+				<nav class="gn-menu-wrapper">
+					<div class="gn-scroller">
+						<ul class="gn-menu">
+                            <li class="gn-icon">
+								<a class="gn-icon gn-icon-article">Sobre</a>
+								<ul class="gn-submenu">
+									<li><a class="gn-icon gn-icon-article">Política</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</li>
+		</ul>
 
-    <nav class="navbar navbar-expand-lg  navbar-light site-header fixed-top bg-light ">
-        <div class="container bodyControlWidth ">
-
-            <a class="navbar-brand " href="#">Navbar com texto</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse " id="textoNavbar">
-
-                <ul class="navbar-nav ml-auto ">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Destaques</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Preços</a>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-    </nav>
+	</div><!-- /container -->
+	<script src="js/classie.js"></script>
+	<script src="js/gnmenu.js"></script>
+	<script>
+		new gnMenu(document.getElementById('gn-menu'));
+	</script>
+<!--End Menu-->
 
         <div class="container-fluid d ">
 
-            <div class="row d-flex justify-content-md-center align-items-md-end heightPluss ">
+            <div class="row d-flex justify-content-md-center align-items-md-center heightPluss ">
 
-                <div class="card mb-3" style="max-width: 700px;">
-                    <div class="row no-gutters  align-items-md-center">
+                <div class="card mb-3 " style="max-width: 700px;">
+                    <div class="row no-gutters  align-items-md-center ">
 
                         <div class="col-md-4">
                             <div class="container">
-                                <img src="./assets/img/geovana.jpg" class=" rounded-circle img-fluid" width="100%" />
+                                <img src="./assets/img/geovana.jpg" class=" rounded-circle img-fluid"  />
                             </div>
 
 
                         </div>
                         <div class="col-md-8 ">
-                            <div class="card-bodyaulo text-center ">
+                            <div class="card-bodyaulo text-center heightImg">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">It's a broader card with text below as a natural lead-in to extra
-                                    content. This content is a little longer.</p>
-                                <p class="card-text">It's a broader card with text below as a natural lead-in to extra
-                                    content. This content is a little longer.</p>
-                                <p class="card-text">It's a broader card with text below as a natural lead-in to extra
-                                    content. This content is a little longer.</p>
-                                <p class="card-text">It's a broader card with text below as a natural lead-in to extra
-                                    content. This content is a little longer.</p>
-
+                                    content. This content is a t's a broader card with text below as a natural lead-in to extra.</p>
                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                         </div>
@@ -86,32 +84,32 @@
             <div class="card-deck autoHeight ">
 
                 <div class="card border-0  align-items-center circulo" style="background-color: #babaca;">
-                    <img class="card-img-top reduzirAimgTemporariamente" style="width: 50px;"
+                    <img class="card-img-top reduzirAimgTemporariamente" style="width: 30px;"
                         src="./assets/img/papel.png" alt="Imagem de capa do card">
                     <div class="card-body">
                         <h5 class="card-title">Compromisso</h5>
-                        <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma
+                        <p class="card-text textHeight">Este é um card maior com suporte a texto embaixo, que funciona como uma
                             introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
                     </div>
 
                 </div>
                 <div class="card border-0 align-items-center circulo " style="background-color: #babaca;"  >
-                    <img class="card-img-top reduzirAimgTemporariamente" style="width: 50px;"
+                    <img class="card-img-top reduzirAimgTemporariamente" style="width: 30px;"
                         src="./assets/img/forca.png" alt="Imagem de capa do card">
                     <div class="card-body">
                         <h5 class="card-title">Força feminina</h5>
-                        <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma
+                        <p class="card-text textHeight">Este é um card com suporte a texto embaixo, que funciona como uma
                             introdução a
                             um conteúdo adicional.</p>
                     </div>
 
                 </div>
                 <div class="card border-0 align-items-center circulo " style="background-color: #babaca;">
-                    <img class="card-img-top reduzirAimgTemporariamente" style="width: 50px;"
+                    <img class="card-img-top reduzirAimgTemporariamente" style="width: 30px;"
                         src="./assets/img/coracao.png" alt="Imagem de capa do card">
                     <div class="card-body">
-                        <h5 class="card-title">Cuidado com SV</h5>
-                        <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma
+                        <h5 class="card-title">Cuidados com São Vicente</h5>
+                        <p class="card-text textHeight" >Este é um card maior com suporte a texto embaixo, que funciona como uma
                             introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro,
                             para
                             mostrar a altura igual, em ação.</p>
