@@ -2,6 +2,11 @@ body {
   margin: 0;
 }
 
+.cardEffectNopaddingnoMargin{
+  margin: 0px;
+  padding: 0px;
+}
+
 #intro {
   display: block;
   width: 100%;
@@ -49,11 +54,6 @@ body {
   border: none;
 }
 
-.reduzirAimgTemporariamente {
-  width: 1px;
-  margin-top: 1rem;
-  height: 30px;
-}
 
 .autoHeight {
   margin-top: 3rem;
@@ -66,6 +66,26 @@ body {
   margin: 5px 0 5px 0;
   color: #000;
 }
+
+.forFooter{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .topMenu {
   z-index: 1;
@@ -118,6 +138,8 @@ body {
     display: none;
   }
 }
+
+
 
 /*
  Multicoloured Hover Variations
