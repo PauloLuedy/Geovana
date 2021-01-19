@@ -39,7 +39,7 @@ margin-top: 3.8rem;
 }
 
 .heightPluss{
-  height: 25rem ;
+  height: 57vh ;
   flex-direction:  column;
 }
 
@@ -58,9 +58,10 @@ margin-top: 3.8rem;
 }
 
 .circulo{
-  border: #babaca solid 1px;
+  border: solid 1px;
   border-radius: 5%;
   padding: 10px;
+  color: #000;
 }
 
 
