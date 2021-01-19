@@ -1,85 +1,86 @@
 body {
-    margin: 0;
+  margin: 0;
 }
+
 #intro {
-    display: block;
-    width: 100%;
-    height: 100vh;
-    padding: 0;
-    text-align: center;
-    color: white;
-    background-color: black;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
-    -o-background-size: contain;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  text-align: center;
+  color: white;
+  background-color: black;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
 }
 
-.bodyControlWidth{
-    max-width: 900px;
+.bodyControlWidth {
+  max-width: 900px;
 }
 
-.navfixed{
-position: fixed;
+.navfixed {
+  position: fixed;
 }
-.separa{
-    display: flex;
+
+.separa {
+  display: flex;
   justify-content: space-between;
 }
 
-.d{
-background-position:center;
-background-image: url('../img/SV.jpg');
-background-repeat: no-repeat;
-background-size:cover;
-width: 100%;
-height: 100%;
-margin-top: 3.8rem;
+.d {
+  background-position: center;
+  background-image: url('../img/SV.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin-top: 3.8rem;
 
 }
 
-.heightPluss{
-  height: 57vh ;
-  flex-direction:  column;
+.heightPluss {
+  height: 57vh;
+  flex-direction: column;
 }
 
-.tiraborda{
+.tiraborda {
   border: none;
 }
 
-.reduzirAimgTemporariamente{
+.reduzirAimgTemporariamente {
   width: 1px;
   margin-top: 1rem;
   height: 30px;
 }
 
 .autoHeight {
- margin-top: 3rem ;
+  margin-top: 3rem;
 }
 
-.circulo{
+.circulo {
   border: solid 1px;
   border-radius: 5%;
-  padding: 10px;
+  padding: 30px;
+  margin: 5px 0 5px 0;
   color: #000;
 }
 
-
-.topMenu{
+.topMenu {
   z-index: 1;
 }
 
-
-.heightImg{
-  padding: 3rem;
+.heightImg {
+  padding: 4rem;
 }
 
 
-.heightIcon{
+.heightIcon {
   size: 1000px;
 }
 
-.textHeight{
+.textHeight {
   font-size: 14px;
 }
 
@@ -89,6 +90,7 @@ margin-top: 3.8rem;
   -o-transform: scale(1.1);
 
 }
+
 .social {
   -webkit-transform: scale(0.8);
   /* Browser Variations: */
@@ -100,7 +102,23 @@ margin-top: 3.8rem;
   -o-transition-duration: 0.5s;
 }
 
+
+
+@media only screen and (min-width: 600px) {
+  .hiderMobile {
+    display: none !important;
+  }
+  body {
+    background-color: blue;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hiderDesk {
+    display: none;
+  }
+}
+
 /*
  Multicoloured Hover Variations
 */
-
