@@ -1,11 +1,8 @@
 body {
   margin: 0;
+  margin-top: 70px !important;
 }
 
-.cardEffectNopaddingnoMargin{
-  margin: 0px;
-  padding: 0px;
-}
 
 #intro {
   display: block;
@@ -29,9 +26,8 @@ body {
   position: fixed;
 }
 
-.separa {
-  display: flex;
-  justify-content: space-between;
+.FundodaCidade {
+ margin: 0px !important;
 }
 
 .d {
@@ -42,12 +38,13 @@ body {
   width: 100%;
   height: 100%;
   margin-top: 3.8rem;
+  margin-right: 0px;
+  margin-left: 0px;
 
 }
 
-.heightPluss {
-  height: 57vh;
-  flex-direction: column;
+.paddingPluss {
+ padding: 0px;
 }
 
 .tiraborda {
@@ -67,10 +64,7 @@ body {
   color: #000;
 }
 
-.forFooter{
-  display: flex;
-  justify-content: space-between;
-}
+
 
 
 
@@ -114,7 +108,7 @@ body {
 .social {
   -webkit-transform: scale(0.8);
   /* Browser Variations: */
-  color: #fff;
+  color: rgb(5, 5, 5);
   -moz-transform: scale(0.8);
   -o-transform: scale(0.8);
   -webkit-transition-duration: 0.5s;
@@ -131,13 +125,19 @@ body {
   body {
     background-color: blue;
   }
+  .d{
+    background-color: blue !important;
+  }
+
+  
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .hiderDesk {
     display: none;
   }
 }
+
 
 
 
