@@ -55,6 +55,9 @@ body {
 .autoHeight {
   margin-top: 3rem;
 }
+.autoPaddong{
+  padding-top: 20px;
+}
 
 .circulo {
   border: solid 1px;
