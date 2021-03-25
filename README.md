@@ -1,2 +1,0 @@
-# Geovana
-Site perfil politico
